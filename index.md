@@ -13,7 +13,7 @@ We are a group of graduate students at the University of Rochester who are part 
 
 Bios:
 
-Ying Lin is 
+Ying Lin is first-year PhD student in the Brain and Cognitive Sciences department. Her research interests include visual and auditory perception in children with Autism Spectrum Disorder, and cognitive decline in the aging population. She received her bachelor’s degree in behavioral neuroscience and Japanese from Colgate University in 2015.
 
 Greta Smith is a first-year data science MS candidate. Her research interests include data-driven advancement of healthcare and disease management. She received her bachelor’s degree in neuroscience from the University of Rochester in 2015.
 
