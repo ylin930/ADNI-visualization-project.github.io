@@ -2,10 +2,7 @@
 
 Overview:
 
-Goals: 
-
-Plan:
-  Tentative plan: Make a web-based visualization and interative tool of ADNI data 
+This is an in-progress research project at the interface of cognitive science and data science. Our aim is to create a web-based interactive tool for visualization, prediction, and classification of Alzheimer's Disease, based on data from the Alzheimer's Disease Neuroimaging Initiative. 
   
 ## People
 
