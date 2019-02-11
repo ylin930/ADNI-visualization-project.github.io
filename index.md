@@ -2,7 +2,10 @@
 
 Overview:
 
-Goals:  
+Goals: 
+
+Plan:
+  #Tentative plan: Make a web-based tool of ADNI data that may be of help for clinicians 
 
 ## Resources:
 
@@ -12,6 +15,7 @@ http://adni.loni.usc.edu/
 1. Emailed ADNI PIs to ask/discuss potential project
 2. Interviewed PIs/Postdocs about developing a helpful tool
 3. Submited application to ADNI
+4. Waiting for experts to reply back 
 
 ## Next Steps
 1. Look into R shiny and wordbank 
