@@ -21,8 +21,18 @@ http://adni.loni.usc.edu/
 1. Look into R shiny and wordbank 
 2. Brainstorm plan B: Using ECG data to improve sliding window technique to distinguish actual signal from artifacts 
 
-## Paper presentation
-Greta & Ying
+## Paper presentations
+*Greta & Ying
   http://www.llanolab.com/files/publications/llano-laforet-devanarayan-2011-adad.pdf
+  
+*Greta & Max
 
+*Max & Ying
+
+## References
+
+ADNI website: 
+http://adni.loni.usc.edu/news-publications/publications/
+
+Others:
 
