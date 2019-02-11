@@ -19,7 +19,8 @@ http://adni.loni.usc.edu/
 
 ## Next Steps
 1. Tutorial of R shiny and start a rough draft of the interactive website 
-2. Brainstorm plan B: Using ECG data to improve sliding window technique to distinguish actual signal from artifacts 
+2. Edit and update current website (include tabs)
+3. Brainstorm plan B: Using ECG data to improve sliding window technique to distinguish actual signal from artifacts 
 
 ## Paper presentations
 *Greta & Ying
