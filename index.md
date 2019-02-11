@@ -13,9 +13,11 @@ We are a group of graduate students at the University of Rochester who are part 
 
 Bios:
 
-Ying Lin
-Greta Smith
-Max Wasserman
+Ying Lin is 
+
+Greta Smith is a first-year data science MS candidate. Her research interests include data-driven advancement of healthcare and disease management. She received her bachelor’s degree in neuroscience from the University of Rochester in 2015.
+
+Max Wasserman is a first-year computer science PhD candidate.
 
 ## Data:
 We plan to use data from the Alzheimer's Disease Neuroimagine Initiative. More information about this project can be found at http://adni.loni.usc.edu/.
