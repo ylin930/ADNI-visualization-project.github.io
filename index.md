@@ -1,4 +1,4 @@
-# ADNI Project
+# Alzheimer's Disease Visualization Project
 
 Overview:
 
@@ -6,10 +6,13 @@ Goals:
 
 Plan:
   Tentative plan: Make a web-based visualization and interative tool of ADNI data 
+  
+## People
 
-## Resources:
+We are a group of graduate students at the University of Rochester.... 
 
-http://adni.loni.usc.edu/
+## Data:
+We plan to use data from the Alzheimer's Disease Neuroimagine Initiative. More information about this project can be found at http://adni.loni.usc.edu/.
 
 ## Updates
 1. Emailed ADNI PIs to ask/discuss potential project
