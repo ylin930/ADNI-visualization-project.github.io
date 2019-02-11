@@ -9,7 +9,13 @@ Plan:
   
 ## People
 
-We are a group of graduate students at the University of Rochester.... 
+We are a group of graduate students at the University of Rochester who are part of the National Science Foundation Research Traineeship in Data-Enabled Research into Human Behavior and its Cognitive and Neural Mechanisms. More information about this traineeship can be found at http://www.sas.rochester.edu/dsc/graduate/nrt.html.
+
+Bios:
+
+Ying Lin
+Greta Smith
+Max Wasserman
 
 ## Data:
 We plan to use data from the Alzheimer's Disease Neuroimagine Initiative. More information about this project can be found at http://adni.loni.usc.edu/.
@@ -21,7 +27,7 @@ We plan to use data from the Alzheimer's Disease Neuroimagine Initiative. More i
 4. Waiting for experts to reply back 
 
 ## Next Steps
-1. Tutorial of R shiny and start a rough draft of the interactive website 
+1. Tutorial of R shiny and start a rough daft of the interactive website 
 2. Edit and update current website (include tabs)
 3. Brainstorm plan B: Using ECG data to improve sliding window technique to distinguish actual signal from artifacts 
 
