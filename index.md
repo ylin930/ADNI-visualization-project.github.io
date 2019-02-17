@@ -20,15 +20,12 @@ Max Wasserman is a first-year computer science PhD candidate.
 We plan to use data from the Alzheimer's Disease Neuroimagine Initiative. More information about this project can be found at http://adni.loni.usc.edu/.
 
 ## Updates
-1. Emailed ADNI PIs to ask/discuss potential project
-2. Interviewed PIs/Postdocs about developing a helpful tool
-3. Submited application to access ADNI data
-4. Waiting for experts to reply back 
+1. Meeting with ADNI PIs to ask/discuss potential project (4pm on Monday, 18th)
+2. Continue to improve website (tabs, images, etc.) 
 
 ## Next Steps
-1. Tutorial of R shiny and start a rough daft of the interactive website 
-2. Edit and update current website (include tabs)
-3. Brainstorm plan B: Using ECG data to improve sliding window technique to distinguish actual signal from artifacts 
+1. Tutorial of R shiny and start a rough daft of the interactive website (if expert say this is infact a helpful tool)
+2. Can set up meeting with department PI (Duje said we can meet with him and he may have some suggestions)
 
 ## Paper presentations
 *Greta & Ying
