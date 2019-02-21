@@ -10,12 +10,12 @@
     <!----TABS---->
         
     
-    <body>
-    <div class="tab">
-        <button class= "tablinks" onclick="openPage(event,'Overview')" id="defaultOpen">Overview</button>
-        <button class= "tablinks" onclick="openPage(event,'People')">People</button>
-        <button class= "tablinks" onclick="openPage(event,'Updates')">Updates</button>
-        <button class= "tablinks" onclick="openPage(event,'Resources')">Resources</button>
+    <body> 
+        <div class="tab">
+            <button class="tablinks" onclick="openPage(event, 'Overview')"id="defaultOpen">Overview</button>
+            <button class="tablinks" onclick="openPage(event, 'People')">People</button>
+            <button class="tablinks" onclick="openPage(event, 'Updates')">Updates</button>
+            <button class="tablinks" onclick="openPage(event,'Resources')">Resources</button>
         </div>
     
     <br />
@@ -35,12 +35,12 @@
         </div>
         
     <div id="Updates" class="tabcontent">
-        <h3>Updates:</h3>
+        <h3>Updates</h3>
         <ol>
-        <li>Emailed ADNI PIs to ask/discuss potential project</li>
-        <li>Interviewed PIs/Postdocs about developing a helpful tool</li>
+        <li>Met with expert</li>
+        <li>Will begin interactive webpage</li>
         <li>Received access to data</li>
-        <li>Scheduled a meeting with expert</li>
+        <li>Start downloading data and making graphs</li>
         </ol>
         </div>
     
@@ -59,39 +59,35 @@
             outline: none;
             cursor: pointer;
             padding: 14px 16px;
-            transition: 0.3s;
-        }
+            transition: 0.3s;}
         
         .tab button:hover{
-            background-color: #ddd;
-        }
+            background-color: #ddd;}
         
         .tab button.active {
-            backgrond-color:#ccc;
-        }
-        </style>    
+            backgrond-color:#ccc;}
+    </style>    
         
         
     <!----JS---->
-     <script>
-    document.getElementById("defaultOpen").click();  
-     // Tab
-    function openPage (evt,tabName) {
-        var i, tabcontent,tablinks;
-        tabcontent=document.getElementsByClassName("tabcontent");
-        for (i=0; i<tabcontent.length; i++) {
-            tabcontent[i].style.display="none";}
-
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i=0; i <tablinks.length; i++) {
-        tablinks[i].className=tablinks[i].className.replace("active","");
-    }
-
-    document.getElementsById(tabName).style.display="block";
-
-    evt.currentTarget.className += "active"; 
-    }
-      
+   
+    <script>
+        document.getElementById("defaultOpen").click();
+        
+        function openPage(evt, tabName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";}
+            
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");}
+            
+          document.getElementById(tabName).style.display = "block";
+            
+          evt.currentTarget.className += " active";
+            }
     </script>
         
     </body>
