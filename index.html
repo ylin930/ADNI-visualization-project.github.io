@@ -8,14 +8,14 @@
     <!--<h1> <img src="\Users\Man Thirst\Desktop\brain2.jpg" alt="logo" aligh="center" /></h1>
     
     <!----TABS---->
-        
-    
+       
     <body> 
         <div class="tab">
             <button class="tablinks" onclick="openPage(event, 'Overview')"id="defaultOpen">Overview</button>
             <button class="tablinks" onclick="openPage(event, 'People')">People</button>
             <button class="tablinks" onclick="openPage(event, 'Updates')">Updates</button>
             <button class="tablinks" onclick="openPage(event,'Resources')">Resources</button>
+            <button class="tablinks" onclick="openPage(event,'Acknowledgements')">Acknowledgements</button>
         </div>
     
     <br />
@@ -48,8 +48,13 @@
         <h3>Resources</h3>
         For publications related to the ADNI data: <a href="http://adni.loni.usc.edu/news-publications/" target="_blank">ADNI website</a>
         </div>
+     
+    <div id="Acknowledgements" class="tabcontent">
+        <h3>Acknowledgements</h3>
+        <p>We would like to acknowledge...</p> 
+        </div>
         
-    <!----CSS---->
+    <!----CSS tab style---->
  
     <style>
             
@@ -69,7 +74,7 @@
     </style>    
         
         
-    <!----JS---->
+    <!----JS tab---->
    
     <script>
         document.getElementById("defaultOpen").click();
