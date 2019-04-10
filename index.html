@@ -87,13 +87,33 @@
            <h1 style="font-family:Brush Script MT;">Analysis</h1>
             <body>
               <ul class="nav">
-               <li><a href="#"><i class="fas fa-chevron-right"></i>Descriptives<i class="fas fa-chevron-left"></i></a></li>
-               <li><a href="#"><i class="fas fa-chevron-right"></i>Regressions<i class="fas fa-chevron-left"></i></a></li>
-               <li><a href="#"><i class="fas fa-chevron-right"></i>Classification<i class="fas fa-chevron-left"></i></a></li>
-               <li><a href="#"><i class="fas fa-chevron-right"></i>Signal processing<i class="fas fa-chevron-left"></i></a></li>
-              </ul>
+               <li><a href="javascript:rudrSwitchTab('tb_1','content_1');" id="tb_1" class="tabmenu active"><i class="fas fa-chevron-right"></i>Descriptives<i class="fas fa-chevron-left"></i></a></li>
+               <li><a href="javascript:rudrSwitchTab('tb_2','content_2');" id="tb_2" class="tabmenu"><i class="fas fa-chevron-right"></i>Regressions<i class="fas fa-chevron-left"></i></a></li>
+               <li><a href="javascript:rudrSwitchTab('tb_3','content_3');" id="tb_3" class="tabmenu"><i class="fas fa-chevron-right"></i>Classification<i class="fas fa-chevron-left"></i></a></li>
+               <li><a href="javascript:rudrSwitchTab('tb_4','content_4');" id="tb_4" class="tabmenu"><i class="fas fa-chevron-right"></i>Signal processing<i class="fas fa-chevron-left"></i></a></li>
+              </ul>    
                 </body>
+            
+            <!----Analyses: subtab contents ---->
+                            
+                <div id="content_1" class="subcontent">
+                        <h2 style="font-family:century gothic;">Descriptives</h2>
+                    </div>
+            
+                 <div id="content_2" class="subcontent" style ="display:none;">
+                     <h2 style="font-family:century gothic;">Regressions</h2>
+                    </div>
+            
+                  <div id="content_3" class="subcontent" style ="display:none;">
+                      <h2 style="font-family:century gothic;">Classifications</h2>
+                    </div>
+            
+                <div id="content_4" class="subcontent" style ="display:none;">
+                    <h2 style="font-family:century gothic;">Signal Processing</h2>
+                    </div>
+            
             </div>
+    
         
         <!----People: general---->
         <div id="People" class="tabcontent">
@@ -270,8 +290,12 @@
         
         
     <!----JS---->
-   
+
     <script>
+        
+        //main tabs
+        
+        
         document.getElementById("defaultOpen").click();
         
         function openPage(evt, tabName) {
@@ -289,6 +313,28 @@
           evt.currentTarget.className += " active";
             }
         
+        
+        //subtabs
+        
+        function rudrSwitchTab(rudr_tab_id, rudr_tab_content) {
+        // first of all we get all tab content blocks (I think the best way to get them by class names)
+        var x = document.getElementsByClassName("subcontent");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = 'none'; // hide all tab content
+        }
+        document.getElementById(rudr_tab_content).style.display = 'block'; // display the content of the tab we need
+
+        // now we get all tab menu items by class names (use the next code only if you need to highlight current tab)
+        var x = document.getElementsByClassName("tabmenu");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].className = 'tabmenu'; 
+        }
+        document.getElementById(rudr_tab_id).className = 'tabmenu active';
+}
+        
+
     </script>
     
     
