@@ -50,9 +50,12 @@
         <!----Home:overview----> 
         
         <div id="Home" class="tabcontent">
+           
+            
            <h1 style="font-family:Brush Script MT;">Overview</h1>
-                <p1 style="font-family:century gothic;">
-                    This is an in-progress research project at the interface of cognitive science and data science. Our aim is to create a web-based interactive tool for visualization, prediction, and classification of Alzheimer&#8217s Disease, based on data from the Alzheimer&#8217s Disease Neuroimaging Initiative (ADNI).</p1>
+                <p1 style="font-family:century gothic;"><video style="padding:5px; float:left" width="400" align="center" controls playsinline autoplay muted loop>
+            <source src="banner_video.mp4" type="video/mp4"></video><br /><br /><br /><br />
+                    <span class="first-letter">T</span>his is an in-progress research project at the interface of cognitive science and data science. Our aim is to create a web-based interactive tool for visualization, prediction, and classification of Alzheimer&#8217s Disease, based on data from the Alzheimer&#8217s Disease Neuroimaging Initiative (ADNI).<br /><br /><br /><br /></p1>
            
 
             <hr style="border:2px solid grey;"/>
@@ -163,11 +166,17 @@
         <!----Resources---->
     
         <div id="Resources" class="tabcontent">
-            <h1 style="font-family:Brush Script MT;">Resources</h1><br />
-            <img src="Word Art.png" alt="wordart" width="20%" height="20%" align="center"/><br /><br />
-            <p1 style="font-family:century gothic;"> There are about 1,700 publications that used the ADNI dataset<br /><a href="http://adni.loni.usc.edu/news-publications/publications/" target="_blank"><i class="fas fa-external-link-alt"></i>    
-                Click Here</a> for a list of publications.<br /><br /><br />All the interactive analysis are completed via Shiny R <br /><a href="https://shiny.rstudio.com/" target="_blank"><i class="fas fa-external-link-alt"></i>    
-                Click Here</a> for more information about Shiny.<br /><br /><br /><br /> </p1>
+            <h1 style="font-family:Brush Script MT;">Resources</h1>
+            <p1 style="font-family:century gothic;"> Video explaintion of Alzheimer's Disease:</p1><br /><br />
+                <iframe width="420" height="315"src="https://www.youtube.com/embed/yJXTXN4xrI8">
+                </iframe><br /><br /><br />
+            
+            <p1 style="font-family:century gothic;"> 
+                There are about 1,700 publications that used the ADNI dataset<br /><a href="http://adni.loni.usc.edu/news-publications/publications/" target="_blank"><i class="fas fa-external-link-alt"></i>Click Here</a> for a list of publications.<br /><br /><br />
+                
+                Alzheimer's Association is one of the largest organizations that strives for Alzheimer's research, care, and support.<br /><a href="https://www.alz.org/" target="_blank"><i class="fas fa-external-link-alt"></i>Click Here</a> for more information.<br /><br /><br /> 
+                
+                All the interactive analysis are completed via Shiny R <br /><a href="https://shiny.rstudio.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Click Here</a> for more information about Shiny.<br /><br /><br /><br /> </p1>
             </div> 
         
         
@@ -227,7 +236,8 @@
             outline: none;
             cursor: pointer;
             padding: 14px 16px;
-            transition: 0.3s;}
+            transition: 0.3s;
+            border-radius: 4px;}
         
         .tab button:hover{
             background-color: #c1c1c1;}
@@ -289,6 +299,10 @@
             color:#c1c1c1;
             }        
         
+        .first-letter {
+            font-size: 40px;
+            line-height: inherit;
+        }
     </style>    
         
         
@@ -340,7 +354,7 @@
 
     </script>
     
-    
+        </div>
     </body>
         
         
