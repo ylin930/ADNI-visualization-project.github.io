@@ -88,6 +88,52 @@
         
         <div id="Analysis" class="tabcontent">
            <h1 style="font-family:Brush Script MT;">Analysis</h1>
+            <body style="font-family:century gothic;">
+                <img src="analysis.png" alt="image" width="35%" style="padding:5px; float:right">
+                <i class="fas fa-exclamation-circle"></i>Please be aware that the analyses only included data from ADNI 1. 
+                <br /><br />
+                Label keys:
+                <ul style="font-family:century gothic;">
+                    <li>AD = Alzheimer&#8217s Disease</li>
+                    <li>MCI = Mild Cognitive Impairment</li>
+                    <li>CN = Cognitive Normal (Healthy Older Adults)</li>
+                    </ul>
+                
+            
+                Variables consists of:
+            <ul style="font-family:century gothic;">
+                <li>Biomarkers: </li>
+                
+                 <ul style="font-family:century gothic;">
+                    <li>Amyloid-Beta</li>
+                    <li>Tau</li>
+                    <li>P-Tau</li>
+                    </ul>
+                
+                
+                <li>Cognitive tests:</li>
+                <ul style="font-family:century gothic;">
+                    <li>Mini-mental state examination (MMSE) <i class="fas fa-arrow-right"></i> higher is better</li>
+                    <li>ADAS cognitve test 13 items <i class="fas fa-arrow-right"></i> lower is better</li>
+                    <li>RAVLT Immediate score <i class="fas fa-arrow-right"></i> higher is better </li>
+                    <li>Digit Span Score <i class="fas fa-arrow-right"></i> higher is better</li>
+                    </ul>
+                <li>Brain Volume:</li>
+                <ul style="font-family:century gothic;">
+                    <li>Hippocampus</li>
+                    <li>Entorhinal cortex</li>
+                    <li>Middle Temporal</li>
+                    <li>Ventricles</li>
+                    </ul>
+                
+                </ul>
+            
+            </body>
+            
+            
+            <hr style="border:1.5px solid grey;"/>
+            
+            
             <body>
               <ul class="nav">
                <li><a href="javascript:rudrSwitchTab('tb_1','content_1');" id="tb_1" class="tabmenu active"><i class="fas fa-chevron-right"></i>Histograms and Density</a></li>
@@ -107,7 +153,7 @@
                             
                         
              
-                        <br /><br /><br /><br /><br /><br />
+                        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                         </body>
                     </div>
             
@@ -122,7 +168,7 @@
                         <iframe id="app3" src=" https://ylin78.shinyapps.io/app3_tabplots/" style="border: none; width: 100%; height: 500px" frameborder="0"></iframe>
 
              
-                        <br /><br /><br /><br /><br /><br />
+                        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                         </body>
                     </div>
             
@@ -170,15 +216,11 @@
 
         <div id="Updates" class="tabcontent">
             <h1 style="font-family:Brush Script MT;">Updates</h1>
-            <p1 style="font-family:century gothic;">
-                <ol>
-                <li> Analysis with ADNI 1 data</li>
-                <li> Using Shiny R to create interactive apps</li>
-                <li> Updating website</li>
-                    </ol>
-                </p1>
-            </div>
-        
+
+                <img src="update.jpg" alt="image" width="50%" align="center">
+              
+               
+        </div>
         <!----Resources---->
     
         <div id="Resources" class="tabcontent">
@@ -192,7 +234,7 @@
                 
                 Alzheimer's Association is one of the largest organizations that strives for Alzheimer's research, care, and support.<br /><a href="https://www.alz.org/" target="_blank"><i class="fas fa-external-link-alt"></i>Click Here</a> for more information.<br /><br /><br /> 
                 
-                All the interactive analysis are completed via Shiny R <br /><a href="https://shiny.rstudio.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Click Here</a> for more information about Shiny.<br /><br /><br /><br /> </p1>
+                All the interactive analysis are completed via R Shiny <br /><a href="https://shiny.rstudio.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Click Here</a> for more information about Shiny.<br /><br /><br /><br /> </p1>
             </div> 
         
         
@@ -386,6 +428,18 @@
             text-align: left;
             text-decoration: none;
             border-radius: 50%;  }
+        
+        .fa-exclamation-circle {
+            background:white;
+            color:pink;
+            font-size:25px;
+            width:25px;
+            text-align: left;
+            border-radius: 50%;
+            }
+        
+            
+        }
            
     </style>    
         
